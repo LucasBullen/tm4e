@@ -24,7 +24,7 @@ import org.eclipse.ui.preferences.IWorkbenchPreferenceContainer;
 
 /**
  * TextMate Global preferences page.
- * 
+ *
  */
 public class TextMatePreferencePage extends PreferencePage implements IWorkbenchPreferencePage {
 
@@ -32,6 +32,7 @@ public class TextMatePreferencePage extends PreferencePage implements IWorkbench
 
 	}
 
+	@Override
 	protected Control createContents(Composite parent) {
 		Composite composite = new Composite(parent, SWT.NONE);
 		GridLayout layout = new GridLayout(1, false);
